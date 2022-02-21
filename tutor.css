@@ -1,0 +1,71 @@
+body {
+  font-size: 110%; /* start value*/
+  margin: auto;  /* centers the page */
+  max-width: 1800px;  
+}
+
+section, header, footer {
+  outline: 1px solid rgb(0, 0, 0);
+}
+
+header {
+  text-align: center;
+}
+.logo {
+height: 325px;
+width: 350px;
+}
+
+.startpage h1 {
+  font-size: 500%; /* Big title on the start page*/
+}
+
+.tagline {
+  font-size: 120%;
+  padding: 6em; /* distance to the border*/
+  border-top: 3px double #000000;
+  border-bottom: 3px double #000000;
+  margin: 1em 0; /* distance downwards but not upwards*/
+}
+
+.menu h2 {
+margin: 0 0 1em;
+padding: 10em 0;
+background-color: #F5F5F5;  /* very light gray*/
+text-align: center;
+box-shadow: inset 0 0 20px #2e6f73;
+border-radius: 1000p0x
+}
+
+footer {
+margin-top: 3em;
+text-align: center;
+color: #999;
+}
+.startpage {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.startpage header, .startpage footer {
+flex: 0 0 100%;
+}
+
+.startpage section {
+flex: 0 0 32%;
+}
+.menu a {
+text-decoration: none;
+color: #000;
+}
+
+.menu a:focus
+.menu a:hover {
+text-decoration: underline;
+color: #2e6f73;
+}
+mark {
+background-color: #ffaaa5;
+color: #ffffff;
+}
